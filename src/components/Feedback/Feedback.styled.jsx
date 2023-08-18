@@ -42,6 +42,10 @@ export const BtnEl = styled.button`
     rgba(217, 217, 217, 0) 100%
   );
   backdrop-filter: blur(25px);
+
+  :hover {
+    background-color: purple;
+  }
 `;
 
 export const StyledList = styled.ul`
